@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E402B81C30CDED008C5D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402B71C30CDED008C5D80 /* main.m */; };
+		04E402BB1C30CDED008C5D80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402BA1C30CDED008C5D80 /* AppDelegate.m */; };
+		04E402BE1C30CDED008C5D80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402BD1C30CDED008C5D80 /* ViewController.m */; };
+		04E402C11C30CDED008C5D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E402BF1C30CDED008C5D80 /* Main.storyboard */; };
+		04E402C31C30CDED008C5D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E402C21C30CDED008C5D80 /* Assets.xcassets */; };
+		04E402C61C30CDED008C5D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E402C41C30CDED008C5D80 /* LaunchScreen.storyboard */; };
+		04E402D11C30CDEE008C5D80 /* OCRockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402D01C30CDEE008C5D80 /* OCRockTests.m */; };
+		04E402DC1C30CDEE008C5D80 /* OCRockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402DB1C30CDEE008C5D80 /* OCRockUITests.m */; };
+		04E402F41C30DF55008C5D80 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402F31C30DF55008C5D80 /* UIView+Utility.m */; };
+		04E402F71C30FE16008C5D80 /* UIFont+Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402F61C30FE16008C5D80 /* UIFont+Pixel.m */; };
+		04E402FD1C310B15008C5D80 /* NSDate+Trans.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E402FC1C310B15008C5D80 /* NSDate+Trans.m */; };
+		DF23A03FD74B95CB1B766F64 /* libPods-OCRock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B79985F5759E260A12E1F92 /* libPods-OCRock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E402CD1C30CDEE008C5D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E402AB1C30CDED008C5D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E402B21C30CDED008C5D80;
+			remoteInfo = OCRock;
+		};
+		04E402D81C30CDEE008C5D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E402AB1C30CDED008C5D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E402B21C30CDED008C5D80;
+			remoteInfo = OCRock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E402B31C30CDED008C5D80 /* OCRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E402B71C30CDED008C5D80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E402B91C30CDED008C5D80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E402BA1C30CDED008C5D80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E402BC1C30CDED008C5D80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E402BD1C30CDED008C5D80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E402C01C30CDED008C5D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E402C21C30CDED008C5D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E402C51C30CDED008C5D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E402C71C30CDED008C5D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E402CC1C30CDEE008C5D80 /* OCRockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E402D01C30CDEE008C5D80 /* OCRockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRockTests.m; sourceTree = "<group>"; };
+		04E402D21C30CDEE008C5D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E402D71C30CDEE008C5D80 /* OCRockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E402DB1C30CDEE008C5D80 /* OCRockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRockUITests.m; sourceTree = "<group>"; };
+		04E402DD1C30CDEE008C5D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E402ED1C30D34C008C5D80 /* RKAppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAppMacro.h; sourceTree = "<group>"; };
+		04E402EE1C30DAC2008C5D80 /* RKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConfig.h; sourceTree = "<group>"; };
+		04E402EF1C30DCB3008C5D80 /* RKAPIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAPIDefine.h; sourceTree = "<group>"; };
+		04E402F01C30DE91008C5D80 /* RKNotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationDefine.h; sourceTree = "<group>"; };
+		04E402F21C30DF55008C5D80 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utility.h"; path = "Category/UIView+Utility.h"; sourceTree = "<group>"; };
+		04E402F31C30DF55008C5D80 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utility.m"; path = "Category/UIView+Utility.m"; sourceTree = "<group>"; };
+		04E402F51C30FE16008C5D80 /* UIFont+Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+Pixel.h"; path = "Category/UIFont+Pixel.h"; sourceTree = "<group>"; };
+		04E402F61C30FE16008C5D80 /* UIFont+Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Pixel.m"; path = "Category/UIFont+Pixel.m"; sourceTree = "<group>"; };
+		04E402F91C30FF04008C5D80 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04E402FA1C30FFB0008C5D80 /* RKFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFramework.h; sourceTree = "<group>"; };
+		04E402FB1C310B15008C5D80 /* NSDate+Trans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Trans.h"; path = "Category/NSDate+Trans.h"; sourceTree = "<group>"; };
+		04E402FC1C310B15008C5D80 /* NSDate+Trans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Trans.m"; path = "Category/NSDate+Trans.m"; sourceTree = "<group>"; };
+		8B79985F5759E260A12E1F92 /* libPods-OCRock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F648BD2FAA92DD33C895424 /* Pods-OCRock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRock/Pods-OCRock.debug.xcconfig"; sourceTree = "<group>"; };
+		D58AA170BD71FF45217EF3C0 /* Pods-OCRock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRock.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRock/Pods-OCRock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E402B01C30CDED008C5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23A03FD74B95CB1B766F64 /* libPods-OCRock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402C91C30CDEE008C5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402D41C30CDEE008C5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E402AA1C30CDED008C5D80 = {
+			isa = PBXGroup;
+			children = (
+				04E402B51C30CDED008C5D80 /* OCRock */,
+				04E402CF1C30CDEE008C5D80 /* OCRockTests */,
+				04E402DA1C30CDEE008C5D80 /* OCRockUITests */,
+				04E402B41C30CDED008C5D80 /* Products */,
+				991FE2BDEB2B880FBA97C316 /* Pods */,
+				7CECE76EA01529E4B2C0D900 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E402B41C30CDED008C5D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E402B31C30CDED008C5D80 /* OCRock.app */,
+				04E402CC1C30CDEE008C5D80 /* OCRockTests.xctest */,
+				04E402D71C30CDEE008C5D80 /* OCRockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E402B51C30CDED008C5D80 /* OCRock */ = {
+			isa = PBXGroup;
+			children = (
+				04E402F11C30DEBE008C5D80 /* Category */,
+				04E402E91C30D183008C5D80 /* Utility */,
+				04E402B91C30CDED008C5D80 /* AppDelegate.h */,
+				04E402BA1C30CDED008C5D80 /* AppDelegate.m */,
+				04E402BC1C30CDED008C5D80 /* ViewController.h */,
+				04E402BD1C30CDED008C5D80 /* ViewController.m */,
+				04E402BF1C30CDED008C5D80 /* Main.storyboard */,
+				04E402C21C30CDED008C5D80 /* Assets.xcassets */,
+				04E402C41C30CDED008C5D80 /* LaunchScreen.storyboard */,
+				04E402C71C30CDED008C5D80 /* Info.plist */,
+				04E402B61C30CDED008C5D80 /* Supporting Files */,
+			);
+			path = OCRock;
+			sourceTree = "<group>";
+		};
+		04E402B61C30CDED008C5D80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E402B71C30CDED008C5D80 /* main.m */,
+				04E402F91C30FF04008C5D80 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E402CF1C30CDEE008C5D80 /* OCRockTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E402D01C30CDEE008C5D80 /* OCRockTests.m */,
+				04E402D21C30CDEE008C5D80 /* Info.plist */,
+			);
+			path = OCRockTests;
+			sourceTree = "<group>";
+		};
+		04E402DA1C30CDEE008C5D80 /* OCRockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E402DB1C30CDEE008C5D80 /* OCRockUITests.m */,
+				04E402DD1C30CDEE008C5D80 /* Info.plist */,
+			);
+			path = OCRockUITests;
+			sourceTree = "<group>";
+		};
+		04E402E91C30D183008C5D80 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04E402ED1C30D34C008C5D80 /* RKAppMacro.h */,
+				04E402EE1C30DAC2008C5D80 /* RKConfig.h */,
+				04E402EF1C30DCB3008C5D80 /* RKAPIDefine.h */,
+				04E402F01C30DE91008C5D80 /* RKNotificationDefine.h */,
+				04E402FA1C30FFB0008C5D80 /* RKFramework.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		04E402F11C30DEBE008C5D80 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04E402F21C30DF55008C5D80 /* UIView+Utility.h */,
+				04E402F31C30DF55008C5D80 /* UIView+Utility.m */,
+				04E402F51C30FE16008C5D80 /* UIFont+Pixel.h */,
+				04E402F61C30FE16008C5D80 /* UIFont+Pixel.m */,
+				04E402FB1C310B15008C5D80 /* NSDate+Trans.h */,
+				04E402FC1C310B15008C5D80 /* NSDate+Trans.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		7CECE76EA01529E4B2C0D900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B79985F5759E260A12E1F92 /* libPods-OCRock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991FE2BDEB2B880FBA97C316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F648BD2FAA92DD33C895424 /* Pods-OCRock.debug.xcconfig */,
+				D58AA170BD71FF45217EF3C0 /* Pods-OCRock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E402B21C30CDED008C5D80 /* OCRock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E402E01C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRock" */;
+			buildPhases = (
+				FE33836CFB9D0E2CF4FC444D /* Check Pods Manifest.lock */,
+				04E402AF1C30CDED008C5D80 /* Sources */,
+				04E402B01C30CDED008C5D80 /* Frameworks */,
+				04E402B11C30CDED008C5D80 /* Resources */,
+				83137C3302B1AA1873B6A211 /* Embed Pods Frameworks */,
+				9BADC9222269FFC45729F520 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRock;
+			productName = OCRock;
+			productReference = 04E402B31C30CDED008C5D80 /* OCRock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E402CB1C30CDEE008C5D80 /* OCRockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E402E31C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRockTests" */;
+			buildPhases = (
+				04E402C81C30CDEE008C5D80 /* Sources */,
+				04E402C91C30CDEE008C5D80 /* Frameworks */,
+				04E402CA1C30CDEE008C5D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E402CE1C30CDEE008C5D80 /* PBXTargetDependency */,
+			);
+			name = OCRockTests;
+			productName = OCRockTests;
+			productReference = 04E402CC1C30CDEE008C5D80 /* OCRockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E402D61C30CDEE008C5D80 /* OCRockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E402E61C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRockUITests" */;
+			buildPhases = (
+				04E402D31C30CDEE008C5D80 /* Sources */,
+				04E402D41C30CDEE008C5D80 /* Frameworks */,
+				04E402D51C30CDEE008C5D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E402D91C30CDEE008C5D80 /* PBXTargetDependency */,
+			);
+			name = OCRockUITests;
+			productName = OCRockUITests;
+			productReference = 04E402D71C30CDEE008C5D80 /* OCRockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E402AB1C30CDED008C5D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rock;
+				TargetAttributes = {
+					04E402B21C30CDED008C5D80 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04E402CB1C30CDEE008C5D80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04E402B21C30CDED008C5D80;
+					};
+					04E402D61C30CDEE008C5D80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04E402B21C30CDED008C5D80;
+					};
+				};
+			};
+			buildConfigurationList = 04E402AE1C30CDED008C5D80 /* Build configuration list for PBXProject "OCRock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E402AA1C30CDED008C5D80;
+			productRefGroup = 04E402B41C30CDED008C5D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E402B21C30CDED008C5D80 /* OCRock */,
+				04E402CB1C30CDEE008C5D80 /* OCRockTests */,
+				04E402D61C30CDEE008C5D80 /* OCRockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E402B11C30CDED008C5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E402C61C30CDED008C5D80 /* LaunchScreen.storyboard in Resources */,
+				04E402C31C30CDED008C5D80 /* Assets.xcassets in Resources */,
+				04E402C11C30CDED008C5D80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402CA1C30CDEE008C5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402D51C30CDEE008C5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83137C3302B1AA1873B6A211 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRock/Pods-OCRock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BADC9222269FFC45729F520 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRock/Pods-OCRock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE33836CFB9D0E2CF4FC444D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E402AF1C30CDED008C5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E402BE1C30CDED008C5D80 /* ViewController.m in Sources */,
+				04E402BB1C30CDED008C5D80 /* AppDelegate.m in Sources */,
+				04E402B81C30CDED008C5D80 /* main.m in Sources */,
+				04E402FD1C310B15008C5D80 /* NSDate+Trans.m in Sources */,
+				04E402F71C30FE16008C5D80 /* UIFont+Pixel.m in Sources */,
+				04E402F41C30DF55008C5D80 /* UIView+Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402C81C30CDEE008C5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E402D11C30CDEE008C5D80 /* OCRockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E402D31C30CDEE008C5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E402DC1C30CDEE008C5D80 /* OCRockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E402CE1C30CDEE008C5D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E402B21C30CDED008C5D80 /* OCRock */;
+			targetProxy = 04E402CD1C30CDEE008C5D80 /* PBXContainerItemProxy */;
+		};
+		04E402D91C30CDEE008C5D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E402B21C30CDED008C5D80 /* OCRock */;
+			targetProxy = 04E402D81C30CDEE008C5D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E402BF1C30CDED008C5D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E402C01C30CDED008C5D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E402C41C30CDED008C5D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E402C51C30CDED008C5D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E402DE1C30CDEE008C5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E402DF1C30CDEE008C5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E402E11C30CDEE008C5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F648BD2FAA92DD33C895424 /* Pods-OCRock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = OCRock/PrefixHeader.pch;
+				INFOPLIST_FILE = OCRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E402E21C30CDEE008C5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58AA170BD71FF45217EF3C0 /* Pods-OCRock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = OCRock/PrefixHeader.pch;
+				INFOPLIST_FILE = OCRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E402E41C30CDEE008C5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRock.app/OCRock";
+			};
+			name = Debug;
+		};
+		04E402E51C30CDEE008C5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRock.app/OCRock";
+			};
+			name = Release;
+		};
+		04E402E71C30CDEE008C5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCRock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04E402E81C30CDEE008C5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.OCRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCRock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E402AE1C30CDED008C5D80 /* Build configuration list for PBXProject "OCRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E402DE1C30CDEE008C5D80 /* Debug */,
+				04E402DF1C30CDEE008C5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E402E01C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E402E11C30CDEE008C5D80 /* Debug */,
+				04E402E21C30CDEE008C5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E402E31C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E402E41C30CDEE008C5D80 /* Debug */,
+				04E402E51C30CDEE008C5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E402E61C30CDEE008C5D80 /* Build configuration list for PBXNativeTarget "OCRockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E402E71C30CDEE008C5D80 /* Debug */,
+				04E402E81C30CDEE008C5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E402AB1C30CDED008C5D80 /* Project object */;
+}
